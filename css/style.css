@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: aqua;
+}
+body main {
+  display: grid;
+  place-items: center;
+  margin-top: 100px;
+}
+body main .container_block {
+  border: 1px solid slategray;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  padding: 20px;
+  border-radius: 20px;
+}
+body main .container_block button {
+  margin-top: 20px;
+  padding: 5px;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+body main .container_block button:hover {
+  color: wheat;
+  background-color: cadetblue;
+  transition: 3s;
+  background-color: #183f88;
+}
+body main .container_block hr {
+  margin-top: 20px;
+}
+body main .main_section {
+  padding: 40px;
+}
+body main .main_section .correct {
+  background-color: green;
+  color: #7ca2c4;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: rgba(72, 54, 54, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+body main .main_section .incorrect {
+  background-color: red;
+  color: #5b5050;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: rgba(50, 44, 44, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+body main .second_section {
+  text-align: center;
+  padding-top: 20px;
+}
+body main .second_section input {
+  margin-top: 20px;
+  padding: 8px 5px;
+  border-radius: 10px;
+  cursor: context-menu;
+}
+body main .second_section p {
+  color: #3c6fcf;
+  font-size: 20px;
+}
